@@ -1,0 +1,45 @@
+@media screen {
+    body {
+        background-color: red;
+    }
+}
+@media print {
+    body {
+        background-color: white;
+    }
+}
+@media speech {
+    aside {
+        display: none;
+    }
+}
+@media (min-width: 500px) {
+    nav {
+        width: 100px;
+    }
+}
+@media (min-height: 500px) {
+    nav {
+        height: 300px;
+    }
+}
+@media (max-width: 500px) {
+    nav {
+        width: 50px;
+    }
+}
+@media (min-width: 500px) and (max-width: 1000px) {
+    header {
+        font-size: larger;
+    }
+}
+@media (min-width: 1000px), (max-width: 500px) {
+    footer {
+        font-weight: bold;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 500px) {
+    article {
+        font-style: italic;
+    }
+}
