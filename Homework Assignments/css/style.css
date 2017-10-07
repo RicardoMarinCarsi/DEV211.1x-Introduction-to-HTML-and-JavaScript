@@ -47,15 +47,10 @@ main {
     src: url('../fonts/contrail_one.ttf') format('truetype');
 }
 body {
-    font-family: News Cycle;
+    font-family: News Cycle !important;
 }
 header {
     font-family: Contail One;
-}
-article {
-    margin: 5px 0px;
-    padding: 5px 5px;
-    box-shadow: -1px -1px 6px #888888;
 }
 @media print {
     header {

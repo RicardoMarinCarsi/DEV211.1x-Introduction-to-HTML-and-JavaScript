@@ -4,8 +4,11 @@
     <title>Contoso News</title>
     <link rel="stylesheet" href="css/style.css" />
     <script type="text/javascript" src="js/script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body class="container">
     <header>
         <h1>Contoso News</h1>
         <h2>On Time, On Topic</h2>
@@ -24,9 +27,9 @@
             <figcaption>Many Doctors are Moving to Digital Health Records This Year</figcaption>
         </figure>
     </section>
-    <main>
+    <main class="row">
         <h3>Latest News</h3>
-        <article>
+        <article class="well col-md-4">
             <time datetime="2016-01-16" >
             Friday, Jan 16
             </time>
@@ -36,7 +39,7 @@
             <a href="#" target="_blank">Read More...</a>
             </p>
         </article>
-        <article>
+        <article class="well col-md-4">
             <time datetime="2016-01-14" >
             Wednesday, Jan 14
             </time>
@@ -51,7 +54,7 @@
             <a href="#" target="_blank">Read More...</a>
             </p>
         </article>
-        <article>
+        <article class="well col-md-4">
             <time datetime="2016-01-14" >
             Wednesday, Jan 14
             </time>
@@ -62,9 +65,9 @@
             </p>
         </article>    
     </main>
-    <h4>Sign Up For Our New Emails.</h4>
-    <summary>
-        <form>
+    <summary class="panel panel-default col-md-8 col-md-offset-2">
+        <div class="panel-heading">Sign Up For Our New Emails.</div>
+        <form class="form-horizontal panel-body">
             <label>E-mail Address: </label>
             <input type="text" required="required"/>
             <label>Delivery Preference: </label>
